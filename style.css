@@ -1,4 +1,8 @@
-﻿body {
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
 #octodad {
     position: fixed;
@@ -15,4 +19,5 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
+    background-attachment: fixed;
 }
