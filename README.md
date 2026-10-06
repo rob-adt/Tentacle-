@@ -5,7 +5,7 @@ A website with a tentacle that follows your mouse.
 This is the java script for the tentacle following the mouse
 
 
-document.addEventListener("mousemove", (e) => { 
+    document.addEventListener("mousemove", (e) => { 
 This line tells the webpage to run the code inside the { } whenever the mouse moves. The (e) stores information about the mouse movement such as the mouses position on the screen.
 
     const image = document.getElementById("octodad");
